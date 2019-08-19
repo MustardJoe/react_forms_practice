@@ -1,6 +1,8 @@
 import React from 'react';
+import FormThing from './FormThing/FormThing';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <FormThing />
+  );
 }
-  
